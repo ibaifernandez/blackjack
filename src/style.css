@@ -1,0 +1,135 @@
+button {
+    cursor: pointer;
+    border-radius:20px;
+}
+
+.board {
+    display: flex;
+}
+
+.player, .computer {
+    width: 33%;
+}
+
+#computer-name {
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+#player-name {
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.central-board {
+    width:33%;
+    margin-top: 3rem;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    background: white;
+    border: 2px solid black;
+    margin: 0 auto;
+    border-radius: 5%;
+  }
+
+.card-header {
+    width: 90%;
+    height: 15%;
+    margin: 0.5rem auto 0;
+}
+
+.header-symbol {
+    width:25%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+.card-footer {
+    width: 90%;
+    height: 15%;
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer-symbol {
+    width:25%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+
+}
+
+.card-body {
+    width: 90%;
+    height: 64%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-symbol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 40%;
+    font-size: 64px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width:25%;
+}
+
+.deal-button {
+    text-align: center;
+    margin-top: 0.5rem; 
+}
+
+.deal {
+    text-align: center;
+    margin-top: 1rem; 
+    padding:1rem 2rem;
+    border-radius: 20px;
+    background: none;
+    border:2px solid red;
+    font-weight:bold;
+}
+
+.deal:hover {
+    transform: scale(110%);
+    background: rgba(200,200,200, 0.5);
+    transition: 100ms ease-in;
+}
+
+#deal-computer-button {
+    display:none;
+}
+
+#stop-here {
+    display: none;
+    margin: 0 auto;
+    padding: 1rem;
+    background: white;
+    font-weight: bold;
+    text-align: center; 
+}
+
+#stop-here:hover {
+    transform: scale(110%);
+    background: rgba(200,200,200, 0.5);
+    transition: 100ms ease-in;   
+}
